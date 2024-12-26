@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+.code-editor textarea {
+  width: 100%;
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for highlighted code */
+.highlighted-code {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 5px;
+  white-space: pre-wrap; /* Ensure long code lines wrap */
+  font-family: 'Courier New', monospace;
+}
